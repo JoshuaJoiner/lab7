@@ -45,17 +45,17 @@ h1 {
 }
 
 #planets td:first-child {
-  font-weight: normal; 
+  font-weight: bold;
 }
 
 #planets td:nth-child(3n+1) {
-  font-style: normal; 
+  font-style: italic;
 }
 
 #planets td:nth-child(4n) {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #planets td:nth-child(5n) {
-  font-style: normal;
+  font-style: italic;
 }
