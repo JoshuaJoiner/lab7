@@ -1,9 +1,12 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Cursive', 'Arial', sans-serif;
   background-color: #add8e6;
   color: #333;
   margin: 0;
   padding: 0;
+  background-image: url('images/planet_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
