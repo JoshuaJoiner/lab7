@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #add8e6;
+  background-color: #f4f4f4;
   color: #333;
   margin: 0;
   padding: 0;
@@ -17,6 +17,7 @@ h1 {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #planets th, #planets td {
@@ -44,11 +45,11 @@ h1 {
 }
 
 #planets td:first-child {
-  font-weight: normal;
+  font-weight: normal; /* Unbold the first child (Mars) */
 }
 
 #planets td:nth-child(3n+1) {
-  font-style: normal;
+  font-style: normal; /* Untalicize the third child (Jupiter) */
 }
 
 #planets td:nth-child(4n) {
