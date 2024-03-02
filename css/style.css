@@ -1,12 +1,9 @@
 body {
-  font-family: 'Cursive', 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;
   background-color: #add8e6;
   color: #333;
   margin: 0;
   padding: 0;
-  background-image: url('images/planet_1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -47,11 +44,11 @@ h1 {
 }
 
 #planets td:first-child {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #planets td:nth-child(3n+1) {
-  font-style: italic;
+  font-style: normal;
 }
 
 #planets td:nth-child(4n) {
