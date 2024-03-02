@@ -45,17 +45,17 @@ h1 {
 }
 
 #planets td:first-child {
-  font-weight: normal; /* Unbold the first child (Mars) */
+  font-weight: normal; 
 }
 
 #planets td:nth-child(3n+1) {
-  font-style: normal; /* Untalicize the third child (Jupiter) */
+  font-style: normal; 
 }
 
 #planets td:nth-child(4n) {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #planets td:nth-child(5n) {
-  font-style: italic;
+  font-style: normal;
 }
